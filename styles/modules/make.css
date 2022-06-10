@@ -1,0 +1,161 @@
+.make {
+   height: 934px;
+}
+
+.make__inner {
+   position: relative;
+   padding-top: 87px;
+}
+
+.make__title {
+   width: 961px;
+   font-size: 63px;
+   line-height: 90px;
+   margin-bottom: 60px;
+}
+
+.make__subtitle {
+   font-size: 20px;
+   line-height: 30px;
+   width: 376px;
+}
+
+.make__image-block {
+   width: 800px;
+   position: absolute;
+   top: 235px;
+   right: 0;
+   z-index: -1;
+}
+
+.make__image {
+   width: 100%;
+}
+
+.make__icon {
+   position: absolute;
+   top: 456px;
+   left: 138px;
+}
+
+@media screen and (max-width: 1400px) {
+   .make {
+      height: 760px;
+   }
+
+   .make__image-block {
+      width: 600px;
+   }
+
+   .make__icon {
+      width: 450px;
+      height: 228px;
+   }
+}
+
+
+@media screen and (max-width: 1200px) {
+   .make {
+      height: 686px;
+   }
+
+   .make__title {
+      width: 800px;
+      font-size: 50px;
+      line-height: 70px;
+   }
+
+   .make__icon {
+      top: 456px;
+      left: 50px;
+   }
+
+   .make__image-block {
+      width: 515px;
+   }
+}
+
+
+@media screen and (max-width: 992px) {
+   .make {
+      height: 586px;
+   }
+
+   .make__inner {
+      padding-top: 65px;
+   }
+
+   .make__title {
+      width: 100%;
+      font-size: 44px;
+      line-height: 60px;
+   }
+
+   .make__icon {
+      width: 330px;
+      height: 167px;
+      top: 400px;
+      left: 50px;
+   }
+
+   .make__image-block {
+      width: 400px;
+   }
+
+   .make__subtitle {
+      width: 300px;
+      font-size: 18px;
+      line-height: 28px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .make {
+      height: auto;
+   }
+
+   .make__title {
+      font-size: 34px;
+      line-height: 50px;
+   }
+
+   .make__subtitle {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   .make__image-block {
+      width: 508px;
+      position: static;
+      margin-top: 20px;
+   }
+
+   .make__icon {
+      top: 256px;
+      left: 150px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .make__inner {
+      padding-top: 30px;
+   }
+
+   .make__image-block {
+      width: 100%;
+   }
+
+   .make__icon {
+      display: none;
+   }
+
+   .make__title {
+      margin-bottom: 40px;
+      font-size: 29px;
+      line-height: 45px;
+   }
+
+   .make__subtitle {
+      width: 85%;
+   }
+}

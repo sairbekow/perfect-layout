@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap');
+
+@import url("global.css");
+@import url("variables.css");
+@import url("overall.css");
+@import url("variables.css");
+
+ /* modules */
+@import url("modules/header.css");
+@import url("modules/make.css");
+@import url("modules/projects.css");
+@import url("modules/about.css");
+@import url("modules/testimonials.css");
+@import url("modules/blogs.css");
+@import url("modules/pre-footer.css");
+@import url("modules/footer.css");

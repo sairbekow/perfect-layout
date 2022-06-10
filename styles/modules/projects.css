@@ -1,0 +1,46 @@
+.projects {
+   padding-top: 200px;
+}
+
+.projects__title {
+   margin-bottom: 35px;
+}
+
+.projects__subtitle {
+   width: 637px;
+}
+
+.projects__btn {
+   margin-bottom: 14px;
+}
+
+.projects__content {
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   margin-top: 61px;
+}
+
+
+@media screen and (max-width: 1200px) {
+   .projects {
+      padding-top: 150px;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .projects {
+      padding-top: 100px;
+   }
+
+   .projects__subtitle {
+      width: 100%;
+   }
+}
+
+
+@media screen and (max-width: 575px) {
+   .projects {
+      padding-top: 60px;
+   }
+}

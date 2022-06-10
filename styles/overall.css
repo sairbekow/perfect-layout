@@ -1,0 +1,136 @@
+body {
+   font-family: 'Inter', sans-serif;
+   position: relative;
+   color: var(--pale-sky);
+   font-size: 16px;
+}
+
+.container {
+   max-width: 1376px;
+   margin: 0 auto;
+}
+
+.title {
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+   color: var(--ebony);
+}
+
+.btn {
+   line-height: 24px;
+   background-color: var(--medium-purple);
+   color: var(--white);
+   border: 1px solid var(--medium-purple);
+   transition-duration: .3s;
+}
+
+.btn:hover {
+   border: 1px solid var(--medium-purple);
+   background-color: var(--white);
+   color: var(--medium-purple);
+}
+
+.subtitle {
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.section-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.section-header__btn {
+   padding: 7px 21px;
+}
+
+.section-header__subtitle {
+   font-size: 18px;
+   line-height: 28px;
+}
+
+.section-header__title {
+   font-size: 44px;
+   line-height: 60px;
+}
+
+
+@media screen and (max-width: 1400px) {
+   .container {
+      width: 1170px;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .container {
+      width: 960px;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .container {
+      width: 720px;
+   }
+
+   .section-header__title {
+      font-size: 34px;
+   }
+
+   .section-header__text-content {
+      width: 70%
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+      width: 540px;
+   }
+
+   .section-header__text-content {
+      width: 60%
+   }
+
+   .section-header__title {
+      font-size: 30px;
+   }
+
+   .section-header__subtitle {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   body {
+      font-size: 14px;
+   }
+}
+
+
+@media screen and (max-width: 575px) {
+   .container {
+      width: 100%;
+      padding: 0 15px;
+   }
+
+   .section-header__title {
+      font-size: 28px;
+   }
+
+   .section-header {
+      flex-direction: column;
+      align-items: start;
+      gap: 30px;
+   }
+
+   .section-header__text-content {
+      width: 100%;
+   }
+}
+
+
+
+
+
+
+
